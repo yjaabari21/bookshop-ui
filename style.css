@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Aref+Ruqaa&family=Cairo:wght@200&family=Kufam&family=Rakkas&family=Reem+Kufi:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Aref+Ruqaa&family=Cairo:wght@200&family=Kufam&family=Rakkas&family=Reem+Kufi:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Aref+Ruqaa&family=Cairo:wght@200&family=Kufam&family=Mada:wght@200&family=Rakkas&family=Reem+Kufi:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Aref+Ruqaa&family=Bangers&family=Cairo:wght@200&family=Dancing+Script&family=Kufam&family=Libre+Bodoni:ital,wght@1,400;1,500&family=Mada:wght@200;900&family=Oleo+Script:wght@700&family=Orelega+One&family=Rakkas&family=Reem+Kufi:wght@500&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection{
+    color: #CA5135;
+    background-color: #57B8CE;
+    font-weight: bold;
+}
+#head{
+    background-image: url(prague-980732_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+#para{
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 50%;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+#accounts{
+    background-color: #f7d035; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.emailPh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.acc{
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px;
+    text-align: center;
+}
+#logIn{
+    border-radius: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+}
+#logIn:hover{
+    color: #fff;
+}
+.fa-lock{
+    padding: 0 6px;
+    color: red;
+}
+#email , #phone{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.fa-book{
+    color: #000;
+    font-size: 20px;
+    padding: 5px;
+    color: #F2F2F4;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#menu-head{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    background-color: black;
+    padding: 8px;
+}
+#fWord{    
+    font-family: 'Courier New', Courier, monospace;
+    color: #57B8CE;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+#sWord{
+    color: #CA5135;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+#sm-links{
+    padding: 5px;
+    text-justify: inter-cluster;
+    color: white;
+}
+#menu-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#men-lin{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#men-lin:hover{
+    text-decoration: underline;
+    color: red;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.ser , .use , .cart{
+    padding: 15px;
+}
+.fa-bars{
+    display: none;
+}
+#ser-box{
+    padding: 0 15px;
+}
+#h2{
+    color: cadetblue;
+}
+#head1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1.25px;
+    margin-top: 14px;
+    font-family: 'Dancing Script';
+    font-weight: bold;
+}
+#head1::first-letter{
+    font-style: italic;
+    color: #ff0000;
+}
+#word{
+    font-style: italic;
+    color: #ff0000;
+}
+.card-box{
+    box-shadow: 4px 4px 4px 1px #000;
+}
+#cas{
+    margin: 5px 0;
+}
+#bBoo{
+    margin: 0;
+    padding: 0 15px;
+}
+.carImg{
+    height: 50vh;
+}
+#book-desc{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+.p-btn{
+    justify-self: center;
+    width: 100%;
+    margin: 5px 0;
+}
+h5 , h4{
+    text-align: center;
+    text-transform: capitalize;
+}
+#offer-box{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 8px;
+    padding: 0;
+}
+#off-txt{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+#img-off{
+    width: 100%;
+}
+#img-off #of-img{
+    width: 100%;
+    height: 100%;
+}
+#head2{
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom: 5px dotted red;
+    color: rgb(255, 203, 125);
+    padding: 10px;
+}
+#off-desc{
+    text-align: center;
+    color: cornsilk;
+}
+#offDes{
+    display: grid;
+}
+#head3{
+    padding: 0;
+    margin: 0;
+}
+.book-type{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: center;
+}
+.t1 , .t2 , .t3 , .t4{
+    border: 3px solid #000;
+    margin: 15px;
+    text-align: center;
+}
+.tl{
+    margin: 15px;
+    text-decoration: none;
+    color: #966F33;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.tl:hover{
+    color: #966F33;
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+.t-desc{
+    text-transform: lowercase;
+    padding: 5px;
+}
+.imgT{
+    padding: 15px;
+}
+.types{
+    margin: 7.5px;
+}
+.philas{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px 280px;
+    align-content: center;
+    justify-content: center;
+}
+#phil-book1{
+    height: 50vh;
+    margin: 15px;
+    background-image: url(p1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#phil-book2{
+    height: 50vh;
+    margin: 15px;
+    background-image: url(p2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#phil-book3{
+    height: 50vh;
+    margin: 15px;
+    background-image: url(p3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#phil-book4{
+    height: 50vh;
+    margin: 15px;
+    background-image: url(p4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#phil-book5{
+
+    background-image: url(p5.jpg);
+    background-position: center;
+    background-size: cover;    
+    height: 50vh;
+    margin: 15px;
+}
+#summary{
+    word-wrap: break-word;
+    text-align: center;
+    background-color: #000000ea;
+    padding: 15px;
+    color: #fff;
+    height: inherit;
+    display: none;
+}
+
+#phil-book1:hover #summary{
+    display: block;
+}
+#phil-book2:hover #summary{
+    display: block;
+}
+#phil-book3:hover #summary{
+    display: block;
+}
+#phil-book4:hover #summary{
+    display: block;
+}
+#phil-book5:hover #summary{
+    display: block;
+}
+.novs{
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px 280px;
+    align-content: center;
+    justify-content: center;
+}
+#novs-book1,#novs-book2,#novs-book3,#novs-book4,#novs-book5{
+    height: 50vh;
+    margin: 15px;
+}
+#novs-book1{
+    background-image: url(n1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#novs-book2{
+    background-image: url(n2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#novs-book3{
+    background-image: url(n3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#novs-book4{
+    background-image: url(n4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#novs-book5{
+    background-image: url(n5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#novs-book1:hover #summary{
+    display: block;
+}
+#novs-book2:hover #summary{
+    display: block;
+}
+#novs-book3:hover #summary{
+    display: block;
+}
+#novs-book4:hover #summary{
+    display: block;
+}
+#novs-book5:hover #summary{
+    display: block;
+}
+#sci-book1,#sci-book2,#sci-book3,#sci-book4,#sci-book5{
+    height: 50vh;
+    margin: 15px;
+}
+#sci-book1{
+    background-image: url(sci1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#sci-book2{
+    background-image: url(sci2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#sci-book3{
+    background-image: url(sci3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#sci-book4{
+    background-image: url(sci4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#sci-book5{
+    background-image: url(sci5.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sci{
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px 280px;
+    justify-content: center;
+    align-items: center;
+}
+#sci-book1:hover #summary{
+    display: block;
+}
+#sci-book2:hover #summary{
+    display: block;
+}
+#sci-book3:hover #summary{
+    display: block;
+}
+#sci-book4:hover #summary{
+    display: block;
+}
+#sci-book5:hover #summary{
+    display: block;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-image: url(library2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#inp-sub{
+    padding: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 50%;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+    border-right: none;
+}
+#sub-btn{
+    padding: 10px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-transform: capitalize;
+    background-color: #966F33;
+    font-weight: bold;
+}
+.foot-links{
+    display: grid;
+    grid-template-columns: 185px 185px 185px 185px;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    background-color: #000;
+}
+.llik{
+    list-style: none;
+}
+#list-head{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+#uli{
+    color: #ff0000;
+    text-decoration: none;
+}
+#uli:hover{
+    text-decoration: underline;
+}
+.ulink{
+    text-align: center;
+}
+.fa-location-dot{
+    color: #fff;
+}
+.address{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+@media only screen and (max-width:1250px) {
+    #accounts{
+        background-color: #fff;
+        font-size: 17px;
+    }
+    .fa-facebook , .fa-linkedin{
+        color: rgb(0, 0, 255);
+    }
+    .fa-twitter{
+        color: rgb(65, 65, 232);
+    }
+    .fa-google-plus-g{
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    #bBoo{
+        align-items: center;
+    }
+    .book-type{
+        display: grid;
+        grid-template-columns: 250px 250px;
+    }
+    #book-desc{
+        word-wrap: break-word;
+    }
+    .card-img{
+        height: 20vh;
+    }
+    #cas{
+        width: 50%;
+    }
+    .btn-outline-danger{
+        margin: 0;
+    }
+    .philas{
+        grid-template-columns: 230px 230px 230px 230px;
+    }
+    #phil-book1,#phil-book2,#phil-book3,#phil-book4{
+        height: 20em;
+    }
+    #phil-book5{
+        display: none;
+    }
+    .novs{
+        grid-template-columns: 230px 230px 230px 230px;
+    }
+    #novs-book1,#novs-book2,#novs-book3,#novs-book4{
+        height: 20em;
+        margin: 15px;
+    }
+    #novs-book5{
+        display: none;
+    }
+    .sci{
+        grid-template-columns: 230px 230px 230px 230px;
+    }
+    #sci-book1,#sci-book2,#sci-book3,#sci-book4{
+        height: 20em;
+        margin: 15px;
+    }
+    #sci-book5{
+        display: none;
+    }
+}

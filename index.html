@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library Template</title>
+    <link rel="icon" href="online-library.png">
+    <script
+      src="https://kit.fontawesome.com/bad741a699.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid" id="accounts">
+      <div class="emailPh">
+        <p id="email">example@email.com</p>
+        <p id="phone">+1 2456789</p>
+      </div>
+      <div class="acc">
+      <a id="sm-links" href="linkedin.com">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a id="sm-links" href="facebook.com">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a id="sm-links" href="twitter.com">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a id="sm-links" href="google.com/accounts">
+        <i class="fa-brands fa-google-plus-g"></i>
+      </a>
+      <button class="btn btn-outline-success" id="logIn"><i class="fa-solid fa-lock"></i>Log In</button>
+      </div>
+    </div>
+    <div class="container-fluid" id="menu-head">
+      <div id="logo">
+        <span id="fWord">lorem</span>
+        <i class="fa-solid fa-book"></i>
+        <span id="sWord">ipsum</span>
+      </div>
+      <div id="menu-items">
+        <a id="men-lin" href="#"><li>Best Books</li></a>
+        <a id="men-lin" href="#"><li>Events</li></a>
+        <a id="men-lin" href="#"><li>Authors</li></a>
+        <a id="men-lin" href="#"><li>Quotes</li></a>
+      </div>
+      <div id="icons">
+        <i class="fa-solid fa-magnifying-glass ser"></i>
+        <input id="ser-box" type="search" placeholder="Search....." />
+        <i class="fa-solid fa-user use"></i>
+        <i class="fa-solid fa-cart-shopping cart"></i>
+      </div>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="container-fluid" id="head">
+      <div id="para">
+        <h1 id="h1">About us</h1>
+        <h2 id="h2">Lorem ipsum dolor sit amet</h2>
+        <p id="desc">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+        <button class="btn btn-outline-warning">Read More</button>
+      </div>
+    </div>
+
+    <div class="book-type">
+      <div class="card-box t1">
+        <img class="card-img imgT" src="audio-book.gif" alt="">
+        <h4>audio Book</h4>
+        <p class="t-desc">
+          LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+          EIUSMOD TEMPOR INCIDIDUNT
+        </p>
+        <a class="tl" href="#head1">Read more</a>
+      </div>
+      <div class="card-box t2">
+        <img class="card-img imgT" src="ebook.gif" alt="">
+        <h4>electronic Books</h4>
+        <p class="t-desc">
+          LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+          EIUSMOD TEMPOR INCIDIDUNT
+        </p>
+        <a class="tl" href="">Read more</a>
+      </div>
+      <div class="card-box t3">
+        <img class="card-img imgT" src="reading.png" alt="">
+        <h4>Kids Books</h4>
+        <p class="t-desc">
+          LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+          EIUSMOD TEMPOR INCIDIDUNT
+        </p>
+        <a class="tl" href="">Read more</a>
+      </div>
+      <div class="card-box t4">
+        <img class="card-img imgT" src="comic.png" alt="">
+        <h4>magazine</h4>
+        <p class="t-desc">
+          LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+          EIUSMOD TEMPOR INCIDIDUNT
+        </p>
+        <a class="tl" href="">Read More</a>
+      </div>
+    </div>
+
+    <h1 id="head1">best <i id="word">s</i>ellers</h1>
+    <div class="container">
+      <div class="row" id="bBoo">
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img class="card-img carImg" src="the book.webp" alt="" />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 40.99</button>
+          </div>
+        </div>
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img
+              class="card-img carImg"
+              src="All-the-Light-We-Cannot-See.jpg"
+              alt=""
+            />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 12.55</button>
+          </div>
+        </div>
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img class="card-img carImg" src="i dont give a fuck.jpg" alt="" />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 21.99</button>
+          </div>
+        </div>
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img class="card-img carImg" src="actyourage.jfif" alt="" />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 20.00</button>
+          </div>
+        </div>
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img class="card-img carImg" src="is fucked.jpg" alt="" />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 21.00</button>
+          </div>
+        </div>
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img class="card-img carImg" src="jonathan strange.jpg" alt="" />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 14.50</button>
+          </div>
+        </div>
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img class="card-img carImg" src="agatha.jpg" alt="" />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 18.00</button>
+          </div>
+        </div>
+        <div class="col-sm-3" id="cas">
+          <div class="card-box">
+            <img class="card-img carImg" src="the angel game.jpg" alt="" />
+            <h5 class="mt-2 bk-Name">LOREM IPSUM DOLOR</h5>
+            <p id="book-desc">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+            <button class="btn btn-outline-danger p-btn">$ 24.00</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="offer-box">
+      <div id="img-off">
+        <img src="fantasy-1077863_1280.jpg" alt="" width="50%" id="of-img" />
+      </div>
+      <div class="container-fluid" id="off-txt">
+         <h3 id="head2">this month offer</h3>
+        <div id="offDes">
+        <p id="off-desc">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+        <button class="btn btn-danger">More</button>
+       </div>
+      </div>
+    </div>
+    <div class="types">
+      <a href="" class="nameLink h3">philasophy..></a>
+      <div class="philas">  
+        <div id="phil-book1">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="phil-book2">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="phil-book3">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="phil-book4">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="phil-book5">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+      </div>
+      <div class="novels">
+        <a href="" class="nameLink h3">novels...></a>
+        <div class="novs">
+        <div id="novs-book1">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="novs-book2">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="novs-book3">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="novs-book4">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+        <div id="novs-book5">
+          <p id="summary">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+            EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+            ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+          </p>
+        </div>
+      </div>
+    </div>
+      <div class="scintific">
+        <a href="" class="nameLink h3">scintific...></a>
+        <div class="sci">
+          <div id="sci-book1">
+            <p id="summary">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+          </div>
+          <div id="sci-book2">
+            <p id="summary">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+          </div>
+          <div id="sci-book3">
+            <p id="summary">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+          </div>
+          <div id="sci-book4">
+            <p id="summary">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+          </div>
+          <div id="sci-book5">
+            <p id="summary">
+              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
+              EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
+              ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+      <div class="subscribe">
+        <input type="text" id="inp-sub" placeholder="Enter your Email Address">
+        <button id="sub-btn">subscribe now</button>
+      </div>
+      <div class="foot-links">
+        <div>
+          <h4 id="list-head">USEFUL LINKS</h4>
+          <ul class="llik">
+            <li class="ulink"><a href="" id="uli">Home</a></li>
+            <li class="ulink"><a href="" id="uli">About</a></li>
+            <li class="ulink"><a href="" id="uli">Contact</a></li>
+            <li class="ulink"><a href="" id="uli">Map</a></li>
+          </ul>
+        </div>
+        <div class="service">
+          <h4 id="list-head">service</h4>
+          <ul class="llik">
+            <li class="ulink"><a href="" id="uli">Loan a book</a></li>
+            <li class="ulink"><a href="" id="uli">buy book</a></li>
+            <li class="ulink"><a href="" id="uli">donte a book</a></li>
+            <li class="ulink"><a href="" id="uli">offers</a></li>
+          </ul>
+        </div>
+        <div class="events">
+          <h4 id="list-head">events</h4>
+          <ul class="llik">
+            <li class="ulink"><a href="" id="uli">event 1</a></li>
+            <li class="ulink"><a href="" id="uli">event 2</a></li>
+            <li class="ulink"><a href="" id="uli">event 3</a></li>
+          </ul>
+        </div>
+        <div class="address">
+          <h4 id="list-head">Address</h4>
+          <p id="address">
+            <i class="fa-solid fa-location-dot"></i>
+            brooklyn , New York , NY 15122 , USA
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            + 1 0528779
+          </p>
+        </div>
+      </div>
+     </div>
+    <script src="plugins.js"></script>
+  </body>
+</html>
